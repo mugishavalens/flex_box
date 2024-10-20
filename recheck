@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+</html>
+<head>
+    <style>
+        body {
+            display: flex;
+            font-family: Roboto, sans-serif;;
+            flex-direction: column;
+            margin-left: 210px;
+            max-width: 900px;
+            background: black;
+        
+
+        }
+        .headlogo {
+            color: white;
+            font-size: larger;
+            font-weight: 700;
+            padding: o;
+            margin-left: 40px;
+        }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        background: rgb(48, 48, 71);
+            height: 130px;
+            padding: 20px;
+            width: 880px;
+        }
+        img {
+            height: 90px;
+            width: 280px;
+            margin-right: 10%; 
+            padding: 22px ;
+            background-color: pink;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        ul {
+           display: flex;
+           list-style: none;
+           margin: 0;
+           padding: 25px;
+           gap: 16px;
+           flex-direction: row;
+           margin-right: 40px;
+           }
+       a{
+        text-decoration: none;
+        color: white;
+        }
+        .text {
+            display: flex;
+            color: white;
+            align-items: start;
+            padding: 32px;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1 2 auto;
+            width: 40px;
+              margin-bottom: 50px;
+        }
+        .head {
+            color: white;
+            font-weight: 900;
+            font-size: 22px;
+            width: 48%;;
+        }
+        .botton {
+            color: white;
+            background: blueviolet;
+            border-radius: 10%;
+            width: 80px;
+            flex-direction: row;
+           margin-right: 32px;
+        }
+    
+        .rowcard {
+            color: black;
+            font-size: 26px;
+            font-weight: 900;
+            padding: 0;
+            align-self: center;
+            margin-bottom: 36px;
+        }
+        .card {  
+            border: 3px solid blueviolet;
+             padding: 10px;
+             width: 100px;
+             height: 100px;
+             border-radius: 10%;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+
+            }
+            .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            background:whitesmoke;
+            align-items: center;
+            justify-content: space-around;
+            height: 300px;
+            width: 880px;
+             }
+            
+            .input {
+                margin: o;
+                font-size: 15px;
+                padding: 12px;
+            }
+            .content {
+            padding: 30px;
+            display: flex;
+            background:rgb(207, 202, 207);
+            align-items: center;
+            justify-content: space-around;
+            height: 180px;
+            width: 860px;
+            font-size: 21px;
+            margin-top: 50px;
+        }
+        .onend{
+            display: flex;
+            font-weight: 900;
+            align-self: end;
+            padding: 16px;
+            font-size: medium;
+        } 
+        .battle {
+            background: rgb(74, 74, 192);
+            border-radius: 2%;
+            display: flex;
+            flex-direction:;
+            height: 100px;
+            padding: 23px;
+            width: 800px;
+        }
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background: rgb(48, 48, 71);
+            height: 40px;
+            padding: 20px;
+            width: 880px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+
+      <div class="headlogo">Header logo</div>
+        <ul class="right-links">
+          <li><a href="#"> link one</a></li>
+          <li><a href="#">link two</a></li>
+          <li><a href="#">link three</a></li>
+        </ul>
+    </div>
+    
+    <div class="header"> 
+        <div class="text">
+          <div class="head">This website is awesome</div>
+        This website has some subtext that goes here under the main title.It's a smaller font and the color is lower contrast
+          <button class="botton">Sign up</button>
+          </div>
+  
+   <img src="e:\Odin Project\repos\odin-recipes\recipes\chiken stir fry.jpg" alt="Finished Chicken Stir Fry">
+  </div></div>
+        
+     <div class="container">
+        <div class="column">
+            <div class="rowcard">Some random information</div>
+            <div class="row">
+            <div class="row">
+            <div class="column"><div class="card"></div><div class="input">this is some subtext under an illustration or image </div></div>
+            <div class="column"><div class="card"></div><div class="input">this is some subtext under an illustration or image </div></div>
+            <div class="column"><div class="card"></div><div class="input">this is some subtext under an illustration or image</div></div>
+            <div class="column"><div class="card"></div><div class="input">this is some subtext under an illustration or image</div></div>
+            </div>
+            </div>
+        
+    <div class="content">This is inspiring quotes,or a testimonial from a cutomer. Maybe it'sjust filling up space, or may be peaple will actually read it. Who knows? All I know is that it looks nice .
+  <div class="onend"> -Thor,GodofThunder</div></div>
+  <div class="container"><div class="battle"><div class="text"><div class="headlogo">Call to action! It's time!</div>Sign up for our product by cliking that button right over there!</div>
+  <div class="column"><button class="botton">Sign in</button></div>
+</div></div>
+<div class="footer">Copyright © The Odin Project 2021</div>
+</div>
+</body>
+</html>

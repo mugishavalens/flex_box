@@ -1,0 +1,115 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <head>
+        <style>
+           .body{
+            font-family: arial,sans-serif;
+            
+           }
+           .outer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+    background-color: green;
+    border: 4px solid blue;
+    width: 750px;
+    height: 470px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row; 
+}
+
+.flex-item {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 3px; 
+    border: 4px solid blue;
+    
+
+}
+
+.square {
+    background: peachpuff;
+  border: 4px solid brown;
+  width: 500px;
+  height: auto;
+  margin-top: 8px;
+}
+.rectangle {
+    background: peachpuff;
+  border: 4px solid brown;
+padding: 35px;
+margin-top: 8px;
+width: 300px;
+
+}
+
+.item {
+    background:violet;
+    color: black;
+    padding: 8px;
+    margin: 5px; 
+    display: flex;
+    border: 4px solid blue;
+    width: 230px;
+    
+     
+}   
+.final {
+    background: peachpuff;
+  border: 4px solid brown;
+padding: 20px;
+width: 100px;
+
+
+ 
+} 
+.margin {
+    background: peachpuff;
+  border: 4px solid brown;
+padding: 20px;
+width: 100px;
+margin: 4px;  
+}      
+            </style>
+    </head>
+    <body>
+       
+        <div class="outer-container">
+            
+            <div class="flex-row ">
+                <div class="flex-item"><div class="flex-column">
+                <div class="item">1</div>
+                <div class="item"><div class="final">2A</div><div class="final">2B</div></div>
+                <div class="item">3</div></div></div>
+               
+                <div class="flex-column">
+                    <div class="square ">Item 2</div>
+                    <div class="flex-row">
+                    <div class="rectangle ">Item 3A</div>
+                    <div class="rectangle">Item 3B</div>
+                </div>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item"><div class="flex-column"><div class="item">1</div>
+                <div class="margin">2A</div><div class="margin">2B</div>
+                <div class="item">3</div></div></div></div>
+                
+            </div>
+        </div>
+          
+    </body>
+</html>

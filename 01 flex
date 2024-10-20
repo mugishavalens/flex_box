@@ -1,0 +1,36 @@
+<!DOCKTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <head>
+        <style>
+            .conatainer {
+                background: violet;
+                border: 5px solid blue;
+                display: flex;
+                height: 300px;
+               width: 400px;
+               align-items: center;
+               justify-content: center;
+            
+            }
+            .item {
+                background-color: peru;
+                border: 4px solid red;
+                text-align: center;
+                padding: 12px;
+                height: 80px;
+                width: 80px;
+                font-weight: bold;
+                
+                
+                
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="conatainer">
+            <div class="item">center this div</div>
+        </div>
+    </body>

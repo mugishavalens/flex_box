@@ -1,0 +1,47 @@
+<!DOCKTPYE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>css second excercise</title>
+    <head>
+   <style>
+    body {
+        font-family: sans-serif;
+        background: #eee;
+    }
+    .card {
+    margin: 16px auto;
+    background-color: #fff;
+    width: 400px;
+    padding: 8px;
+    }
+    .title {
+        background: #e3f4ff;
+
+    }
+    .content {
+        background: #e3f4ff;
+        margin: 16px auto;
+        width: 400px;
+    }
+    .button-container {
+     background: #e3f4ff;
+     text-align: center;
+     padding: 8px;
+    }
+    button {
+           display: block; 
+           padding: 8px 24px;
+           background: white;
+           border: 1px solid #eee;
+           margin: 0 auto;
+    }
+    </style>   
+    </head>
+    <body>
+        <div class="card">
+            <h1 class="title">I'm a card</h1>
+        <div class="content">I have content inside me..lorem ipsum blah blah. Here's some stuff you need to read</div>
+        <div class="button-container">and a<button> BUTTON</button></div></div>
+    </body>
+ </html>

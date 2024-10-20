@@ -1,0 +1,50 @@
+<!docktpe html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>css firts exercise</title>
+    </head>
+        <style>
+            body {
+                margin: 0 auto;
+                max-width: ;width: 600px;
+            }
+
+            .One {
+
+                 padding: 22px;
+                border: 3px solid blueviolet;
+                width: 400px;
+                background: aqua;
+                display: block;
+                height: 30px;
+                margin: 12px;
+            
+                
+            }
+
+            .Two {
+                margin-bottom: 48px;
+                background: pink;
+                border: 3PX solid purple;
+        
+            }
+
+            .Three {
+                margin-left: auto;
+                padding: 32px;
+                width: 200px;
+                background-color: brown;
+                border:3px solid rgb(206, 185, 185);
+                
+            }
+        </style>
+        </head>
+
+        <body>
+            <div class="one">DIVE ONE</div>
+            <div class="two">DIVE TWO</div>
+            <div class="three">DIVE THREE</div>
+        </body>
+</html>

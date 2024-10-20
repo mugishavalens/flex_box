@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <head>
+        <style>
+       body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+
+}
+
+
+
+
+.info {
+    max-width: 200px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+        
+        </style>
+        </head>
+        <body>
+            <div class="title">Information!</div>
+
+            <div class="container">
+              <div class="info">
+                <img src="./images/barberry.png" alt="barberry">
+                <div class="text">This is a type of plant. We love this one.</div>
+              </div>
+              <div class="info">
+                <img src="./images/chilli.png" alt="chili">
+                <div class="text">This is another type of plant. Isn't it nice?</div>
+              </div>
+              <div class="info">
+                <img src="./images/pepper.png" alt="pepper">
+                <div class="text">We have so many plants. Yay plants.</div>
+              </div>
+              <div class="info">
+                <img src="./images/saffron.png" alt="saffron">
+                <div class="text">I'm running out of things to say about plants.</div>
+              </div>
+            </div>
+        
+            
+          
+          </body>
+        </html>
